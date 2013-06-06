@@ -23,16 +23,11 @@
         <artifactId>jboss-bom-parent</artifactId>
     </parent>
     <artifactId>gatein-3.6-bom</artifactId>
-    <version>1.0.0.Final-SNAPSHOT</version>
+    <version>1.0.0.Beta02-redhat-1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Bill of Materials (BOM) needed for developing appplications for GateIn Portal 3.6</name>
+    <name>Bill of Materials (BOM) needed for developing appplications for JBoss Portal Platfotm (JPP) 6.1</name>
     <url>http://gatein.org</url>
-    <scm>
-        <connection>scm:git:git://github.com/gatein/gatein-bom.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/gatein/gatein-bom.git</developerConnection>
-        <url>https://github.com/gatein/gatein-bom</url>
-        <tag>HEAD</tag>
-    </scm>
+
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -42,15 +37,15 @@
     </licenses>
     <properties>
         <!-- The most of version properties are inherited from parent -->
-        <version.org.jboss.portletbridge>3.2.0.Final</version.org.jboss.portletbridge>
+        <version.org.jboss.portletbridge>3.2.0.Final-redhat-1</version.org.jboss.portletbridge>
         <version.cdi.portlet.integration>1.0.0.Final</version.cdi.portlet.integration>
         <version.javax.faces-api>2.1</version.javax.faces-api>
         <!-- This is should be used in human readable text only.
              Keep in sync with ${version.org.richfaces} defined in richfaces-bom -->
-        <version.org.richfaces.mm>4.3</version.org.richfaces.mm>
+        <version.org.richfaces.mm>4.2</version.org.richfaces.mm>
         <version.javax.portlet.portlet.api>2.0</version.javax.portlet.portlet.api>
 
-        <version.org.jboss.gatein.api>1.0.0.CR3</version.org.jboss.gatein.api>
+        <version.org.jboss.gatein.api>1.0.0.CR3-redhat-1</version.org.jboss.gatein.api>
 
         <!-- maven-release-plugin -->
         <!-- <maven.release.plugin.version>2.2.2</maven.release.plugin.version> -->
@@ -58,7 +53,7 @@
         <maven.release.plugin.useReleaseProfile>false</maven.release.plugin.useReleaseProfile>
         <maven.release.plugin.pushChanges>false</maven.release.plugin.pushChanges>
 
-        <version.surefire.plugin>2.10</version.surefire.plugin>
+        <version.surefire.plugin>2.10-redhat-1</version.surefire.plugin>
         <version.org.jboss.as.plugins.maven.plugin>7.3.Final</version.org.jboss.as.plugins.maven.plugin>
 
     </properties>
