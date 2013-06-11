@@ -23,7 +23,7 @@
         <artifactId>jboss-bom-parent</artifactId>
     </parent>
     <artifactId>gatein-3.6-bom</artifactId>
-    <version>1.0.0.Beta02-redhat-1-SNAPSHOT</version>
+    <version>1.0.0.Beta02-prod-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Bill of Materials (BOM) needed for developing appplications for JBoss Portal Platfotm (JPP) 6.1</name>
     <url>http://gatein.org</url>
