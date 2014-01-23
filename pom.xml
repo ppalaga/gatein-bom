@@ -59,7 +59,7 @@
         <version.org.richfaces.mm>4.3</version.org.richfaces.mm>
         <version.javax.portlet.portlet.api>2.0</version.javax.portlet.portlet.api>
 
-        <version.org.jboss.gatein.api>1.0.1.Final</version.org.jboss.gatein.api>
+        <version.org.jboss.gatein.api>1.0.2.Final-SNAPSHOT</version.org.jboss.gatein.api>
 
         <!-- maven-release-plugin -->
         <maven.release.plugin.useReleaseProfile>false</maven.release.plugin.useReleaseProfile>
